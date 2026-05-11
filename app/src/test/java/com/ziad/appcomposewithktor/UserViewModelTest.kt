@@ -5,7 +5,6 @@ import com.ziad.appcomposewithktor.model.Address
 import com.ziad.appcomposewithktor.model.Geo
 import com.ziad.appcomposewithktor.model.User
 import com.ziad.appcomposewithktor.ui.viewmodel.UserViewModel
-import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.test.runTest
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
