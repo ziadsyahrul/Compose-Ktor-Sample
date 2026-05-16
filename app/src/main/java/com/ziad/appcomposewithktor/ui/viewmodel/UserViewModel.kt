@@ -28,6 +28,7 @@ class UserViewModel @Inject constructor(
         fetchUser()
     }
 
+    // func fetch user
     fun fetchUser() {
         viewModelScope.launch {
             _isLoading.value = true
