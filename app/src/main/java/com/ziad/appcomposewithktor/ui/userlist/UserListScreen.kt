@@ -47,7 +47,7 @@ fun UserListScreen(
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("Users App") },
+                title = { Text("Users App New") },
                 colors = TopAppBarDefaults.topAppBarColors(
                     containerColor = MaterialTheme.colorScheme.primary,
                     titleContentColor = MaterialTheme.colorScheme.onPrimary,
