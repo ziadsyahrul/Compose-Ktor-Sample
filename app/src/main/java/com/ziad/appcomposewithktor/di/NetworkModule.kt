@@ -18,6 +18,7 @@ import javax.inject.Singleton
 @InstallIn(SingletonComponent::class)
 object NetworkModule {
 
+    // this is for hilt provide ktor
     @Provides
     @Singleton
     fun provideKtorClient(): HttpClient {
